@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 40px;
+}
+
+.heading-1{
+    border-bottom: 2px solid;
+    border-color: #f56e6e;
+    padding-bottom: 15px;
+    color: #3d4449;
+}
+
+.icon{  
+    position: relative;  
+    width: 97px;  
+    height: 97px;  
+    transform: rotate(45deg);  
+    border: 2px solid #eaeded;  
+    margin: 30px;
+}  
+
+img{  
+    position: absolute;
+    transform: rotate(-45deg); 
+    width: 70px;
+    height: 60px;
+    bottom: 20px;
+    right: 10px;
+}
+
+.heading{
+    margin-bottom: 30px;
+    color: #404a52;
+}
+
+.paragraph{
+    color: gray;
+}
